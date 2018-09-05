@@ -51,7 +51,6 @@ public class AsyncTest {
 @Component
 class Task{
 
-    
     private static Random random =new Random();
 
     @Async
