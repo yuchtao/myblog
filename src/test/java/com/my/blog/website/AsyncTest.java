@@ -51,9 +51,6 @@ public class AsyncTest {
 @Component
 class Task{
     private static Random random =new Random();
-
-
-    
     @Async
      Future<String> doTaskOne() throws Exception {
         System.out.println("开始做任务一");
